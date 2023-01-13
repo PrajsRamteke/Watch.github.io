@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+    text-decoration: none;
+}
+
+html,body{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+section{
+    padding: 100px 0;
+    width: 100%;
+}
+/* -------------------------------------------------------------------- */
+.nav-link{
+    font-weight: bold;
+    font-size: 14px;
+    color: #444444;
+}
+
+.navbar{
+    /* position:fixed; */
+    width: 100%;
+    z-index: 999;
+    background-color: white;
+}
+.navbar-toggler:focus{
+    box-shadow: none;
+    border: none;
+    
+}
+.fa-bars,
+.navbar-toggler{
+    border: none;
+}
+/* --------------------------------------------------------------- */
+.cen{
+   margin-top: 30px;
+   margin-bottom: 110px;
+}
+
+/* .row1{
+   align-items: center;
+   margin: 0px 100px;
+}
+.colpadding{
+    padding: 30px 0;
+} */
+
+.col-lg-6 h1{
+    font-size: 52px;
+    line-height: 1.2;
+    font-weight: 700;
+    color: #444444;
+}
+.col-lg-6 p{
+    font-size: 18px;
+    font-weight: 200;
+}
+.mybtn{
+    text-decoration: none;
+    background: #f9a743;
+    color: white;
+    border-radius: 50px;
+    display: inline-block;
+    box-shadow: 0 15px 40px rgb(249 167 68 / 50%);
+    padding: 15px 40px;
+}
+.mybtn:hover{
+    color: white;
+}
+
+.mybtn02{
+    text-decoration: none;
+    background: #f9a743;
+    color: white;
+    border-radius: 50px;
+    display: inline-block;
+    box-shadow: 0 15px 40px rgb(249 167 68 / 50%);
+    padding: 12px 35px;
+}
+.mybtn02:hover{
+    color: white ;
+}
+/* ------------------------------------------------------------------ */
+.img1{
+    width: 70%;
+}
+
+.heading{
+    font-size: 40px;
+    font-weight: 700;
+}
+.deta h4{
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 8px;
+    margin-top: 6px;
+}
+.deta p{
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: 300;
+    margin-bottom: 16px;
+}
+/* ----------------------------------------------------------------- */
+.background{
+    background: #f9a743;
+}
+.title h2{
+    color: white ;
+    font-weight: 700;
+    font-size: 32px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.title p{
+    color: white;
+}
+
+/* ---------------------------------------------- */
+.card:hover{
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    box-shadow: 0 15px 40px rgba(249, 167, 68, 0.2);
+    transition: all 0.5 linear;
+}
+.card{
+    width: 100%;
+    height: 100%;
+}
+/* =------------------------------------------------------------------ */
+
+.bag-img{
+   background:url("bag-img.jpg") no-repeat fixed;
+   width: 100%;
+   height: 100%;
+   background-size: cover;
+   padding: 200px 0;
+   position: relative;
+   z-index: -2;
+}
+.bag-img::after{
+content: "";
+width: 100%;
+height: 100%;
+background-color: rgba(9, 9, 9, 0.611);
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+z-index: -1;
+}
+
+.bag-img .row h2{
+    color: white ;
+    font-weight: 700;
+    font-size: 32px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.bag-img .row span{
+    color: white ;
+    font-weight: 200;
+    font-family: 'Josefin Sans', sans-serif;
+    margin-bottom: 16px;
+}
+input{
+   width: 300px;
+    height: 48px;
+    border: none;
+    border-bottom-left-radius: 50px;
+    border-top-left-radius: 50px;
+    padding: 14px;
+}
+
+.btn03{
+    text-decoration: none;
+    background: #f9a743;
+    color: white;
+    border-bottom-right-radius: 50px;
+    border-top-right-radius: 50px;
+    display: inline-block;
+    box-shadow: 0 15px 40px rgb(249 167 68 / 50%);
+    padding: 12px 35px;
+}
+.btn03:hover{
+    color: white ;
+}
+/* ----------------------------------------------------------------------- */
+.review-box i{
+    color: #f9a743;
+}
+.review-box p{
+    color: #444444;;
+}
+.review-box .profile h3{
+    font-size: 20px;
+    padding-top: 8px;
+}
+.review-box .profile span{
+    font-weight: 200;
+}
+.review-box{
+    padding: 20px;
+}
+.review-box:hover{
+    box-shadow: 0 15px 40px rgb(249 167 68 / 50%);
+    border-radius: 14px;
+}
+
+/* ------------------------------------------------------------------------------- */
+.foot h6{
+    font-size: 24px;
+    font-weight: 100;
+}
+.foot span{
+    font-size: 16px;
+    font-weight: 200;
+    padding: 15px 0 16px 0;
+}
+ .foot-link{
+    padding: 10px;
+    font-size: 14px;
+    font-weight: 700;
+    text-decoration: none;
+    color: #444444;
+}
+.foot{
+    padding: 50px 0;
+    background-color: #f4f4f4;
+    width: 100%;
+}
+/* ------------------------------ Media Query------------------------------------------ */
+@media screen and (max-width: 572px) {
+    .colpadding h1{
+      font-size: 40px;
+      padding-top: 20px;
+    }
+    .deta{
+        margin-bottom: 30px;
+    }
+    .img1{
+        height: auto;
+        width: auto;
+       
+    }
+    .media-img{
+        padding-bottom: 20px;
+    }
+  }
+  @media screen and (max-width: 572px) {
+    input{
+        min-width: 100px;
+    }
+  }
+  /* ------------------------------------------------------------------ */
